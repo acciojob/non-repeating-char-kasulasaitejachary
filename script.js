@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 		else if{
 			console.log(str.charAt(i));
 		}
-		else if{
+		else if(str.charAt(i)!=str.charAt(i+1)){
 			console.log('null');
 		}
 	}
