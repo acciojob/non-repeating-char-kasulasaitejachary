@@ -5,10 +5,10 @@ function firstNonRepeatedChar(str) {
 		if(str.charAt(i)==str.charAt(i+1)){
 			i++;
 		}
-		else if{
+		else if(str.charAt(i)!=str.charAt(i+1)){
 			console.log(str.charAt(i));
 		}
-		else if(str.charAt(i)!=str.charAt(i+1)){
+		else if{
 			console.log('null');
 		}
 	}
