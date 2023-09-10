@@ -1,12 +1,15 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let i=0;
-	for(; i<str.length;){
+	while(i<str.length){
 		if(str.charAt(i)==str.charAtcode(i+1)){
 			i++;
 		}
-		else{
+		else if{
 			console.log(str.charAt(i));
+		}
+		else if{
+			console.log('null');
 		}
 	}
 }
